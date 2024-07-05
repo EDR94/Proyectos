@@ -76,7 +76,7 @@ var datosFalsos = [
 # Personalización
 Para conectar el buscador con tu backend:
 
-Modifica la sección del código JavaScript donde se definen los datos simulados (datosFalsos) para hacer una solicitud AJAX a tu backend y obtener los datos reales.
+Modifica la sección del código JavaScript donde se definen los datos simulados (datosFalsos) para hacer una solicitud JSON a tu backend y obtener los datos reales.
 
 Asegúrate de que los datos recibidos del backend tengan la misma estructura que los datos simulados.
 
