@@ -18,12 +18,12 @@ Este proyecto es una aplicación web simple que permite buscar registros y mostr
 
 1. Clona este repositorio en tu máquina local:
     ```bash
-    git clone https://github.com/tu_usuario/tu_repositorio.git
+    git clone https://github.com/tu_usuario/BuscadorDePDFs.git
     ```
 
 2. Navega al directorio del proyecto:
     ```bash
-    cd tu_repositorio
+    cd BuscadorDePDFs
     ```
 
 ## Uso
@@ -70,13 +70,14 @@ var datosFalsos = [
         pdfs: []
     }
 ];
+ ```
+ Este apartado se espera reemplazar por el JSON que se reciba del backend.
 
-#Este apartado se espera reemplazar por el JSON que se reciba del backend.
-
-Personalización
+# Personalización
 Para conectar el buscador con tu backend:
 
 Modifica la sección del código JavaScript donde se definen los datos simulados (datosFalsos) para hacer una solicitud AJAX a tu backend y obtener los datos reales.
 
 Asegúrate de que los datos recibidos del backend tengan la misma estructura que los datos simulados.
+
 
